@@ -27,3 +27,13 @@
     - devicon-postgresql-plain-wordmark
     - devicon-heroku-original
     - devicon-javascript-plain
+
+- name: Cat-landing
+  description: Cat lovers will love it, simple cat-landing page.
+  image: card1.jpg
+  url: https://pierrerichemond.github.io/cat-landing/
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain
