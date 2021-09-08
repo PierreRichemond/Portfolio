@@ -2,6 +2,7 @@
   description: Find someone to do that one thing you don't want to do by yourself!
   image: notDIY.webp
   url: https://notdiy.herokuapp.com/
+  github: https://github.com/PierreRichemond/NotDIY
   tags:
     - devicon-rails-plain-wordmark
     - devicon-postgresql-plain-wordmark
@@ -12,6 +13,7 @@
   description: Memo-me is an helper to get closer to the children around you.
   image: memo-me.webp
   url: https://www.memo-me.co/
+  github: https://github.com/PierreRichemond/Ikujitime
   tags:
     - devicon-rails-plain-wordmark
     - devicon-postgresql-plain-wordmark
@@ -22,18 +24,18 @@
   description: Select your favorite movie genre and add it movies.
   image: 23887428.webp
   url: https://myfirstonlineapp.herokuapp.com/lists
+  github: https://github.com/PierreRichemond/movie-lists
   tags:
-    - devicon-rails-plain-wordmark
-    - devicon-postgresql-plain-wordmark
-    - devicon-heroku-original
-    - devicon-javascript-plain
+    - devicon-html5-plain
+    - devicon-css3-plain
+    - devicon-bootstrap-plain
 
 - name: Cat-landing
   description: Cat lovers will love it, simple cat-landing page.
   image: card1.jpg
   url: https://pierrerichemond.github.io/cat-landing/
+  github: https://github.com/PierreRichemond/cat-landing
   tags:
-    - devicon-rails-plain-wordmark
-    - devicon-postgresql-plain-wordmark
-    - devicon-heroku-original
-    - devicon-javascript-plain
+    - devicon-html5-plain
+    - devicon-css3-plain
+    - devicon-bootstrap-plain

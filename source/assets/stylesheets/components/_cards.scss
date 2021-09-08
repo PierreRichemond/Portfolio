@@ -1,14 +1,14 @@
 .card-category {
   background-size: cover;
   background-position: center;
-  height: 240px;
+  height: 260px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   position: relative;
-  margin-bottom: 7em;
+  margin-bottom: 8em;
 }
 
 .card-description {
@@ -19,7 +19,7 @@
   bottom: -108px;
   width: 85%;
   border-radius: 5px;
-  height: 154px;
+  height: 190px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: flex;
   flex-direction: column;
