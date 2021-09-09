@@ -55,7 +55,7 @@
   transition: opacity 1s;
   &:hover {
     cursor: pointer;
-    color: $gray
+    color: $gray;
   }
 }
 
@@ -106,4 +106,8 @@
   bottom: 0;
   left: 0;
   width: 100%;
+}
+
+.card-tags{
+  color: rgb(107, 107, 107);
 }
