@@ -1,16 +1,6 @@
-- name: NotDIY - first Rails project
-  description: Find someone to do that one thing you don't want to do by yourself!
-  image: notDIY.webp
-  url: https://notdiy.herokuapp.com/
-  github: https://github.com/PierreRichemond/NotDIY
-  tags:
-    - devicon-rails-plain-wordmark
-    - devicon-postgresql-plain-wordmark
-    - devicon-heroku-original
-    - devicon-javascript-plain
-
-- name: Memo-me - Final Rails project
-  description: Memo-me is an helper to get closer to the children around you.
+- name: Memo-me
+  subname: Two weeks project.
+  description: Memo-me is an helper to be closer to children around you.
   image: memo-me.webp
   url: https://www.memo-me.co/
   github: https://github.com/PierreRichemond/Ikujitime
@@ -20,7 +10,20 @@
     - devicon-heroku-original
     - devicon-javascript-plain
 
+- name: NotDIY
+  subname: One week project.
+  description: Find someone to do that one thing you don't want to do!
+  image: notDIY.webp
+  url: https://notdiy.herokuapp.com/
+  github: https://github.com/PierreRichemond/NotDIY
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain
+
 - name: Watch-list
+  subname: Two days project.
   description: Select your favorite movie genre and add it movies.
   image: 23887428.webp
   url: https://myfirstonlineapp.herokuapp.com/lists
@@ -31,6 +34,7 @@
     - devicon-bootstrap-plain
 
 - name: Cat-landing
+  subname: One day Html project
   description: Cat lovers will love it, simple cat-landing page.
   image: card1.jpg
   url: https://pierrerichemond.github.io/cat-landing/
