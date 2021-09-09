@@ -1,0 +1,37 @@
+<div class="cards mt-4 mx-4 d-flex flex-wrap justify-content-center">
+  <% @team.players.each do |player| %>
+    <div class="flipcard">
+      <div class="card__inner">
+        <% if player.photo.attached? %>
+          <div class="card__face card__face--front" style="background-image: linear-gradient(rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.3) 100%), url('<%= cl_image_path player.photo.key, crop: :fill %>')">
+          <% else %>
+            <div class="card__face card__face--front" style='background-image: linear-gradient(rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.3) 100%), url(<%= image_url('player-background.jpg') %>)'>
+            <% end %>
+            <h2><%= "#{player.first_name} #{player.last_name}" %></h2>
+            <span class="flip-icon"><i class="fas fa-sync-alt"></i></span>
+            <div class="element-delete">
+              <% if player.user == @user %>
+                <%= link_to ('<i class="fas fa-trash"></i>').html_safe,
+                            player_path(player),
+                            method: :delete,
+                            class: 'card-remove-link',
+                            data: { confirm: "Delete #{player.first_name} #{player.last_name}?"} %>
+              <% end %>
+            </div>
+          </div>
+          <div class="card__face card__face--back">
+            <div class="card__content">
+              <div class="card__header">
+                <h2><%= "#{player.first_name} #{player.last_name}" %></h2>
+              </div>
+              <div class="card__body">
+                <h3><%= player.team.name %></h3>
+                <p>Position: <%= player.position %></p>
+                <p>Age: <%= player.age %></p>
+                <p>Nationality: <%= player.nationality %></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <% end %>

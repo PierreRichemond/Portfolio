@@ -10,8 +10,8 @@
 
 
 body{
-  background-image: image-url("screen-7.jpg");
-  background-size: cover;
+  background-image: image-url("dynamic-style.png");
+
   font-family: 'Roboto', sans-serif;
 }
 
@@ -20,24 +20,5 @@ h1{
 }
 
 h1, h2, h5{
-  font-family: 'Cinzel', serif;;
-}
-
-
-
-@media (max-width: 900px) {
-  .container {
-    width: 700px;
-  }
-}
-@media (max-width: 720px) {
-  .container {
-    width: 500px;
-  }
-}
-@media (max-width: 540px) {
-
-  .container {
-    width: 300px;
-  }
+  font-family: 'Cinzel', serif;
 }
