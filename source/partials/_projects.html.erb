@@ -10,8 +10,8 @@
           <div style=''>
             <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= image_path(product.image) %>)">
               <div class="card-description">
-                <h5><%= product.name %></h5>
-                <h5><%= product.subname %></h5>
+                <h5 class="header-card"><%= product.name %></h5>
+                <h6 class='subheader-card'><%= product.subname %></h6>
                 <p><%= product.description %></p>
                 <div class="d-flex justify-content-between align-items-center mt-1">
                   <div class="card-tags">

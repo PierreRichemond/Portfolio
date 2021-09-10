@@ -53,6 +53,7 @@
   margin-left: 8px;
   opacity: 0;
   transition: opacity 1s;
+  color:rgb(125, 163, 150);
   &:hover {
     cursor: pointer;
     color: $gray;
@@ -110,6 +111,13 @@
 
 .card-tags{
   color: rgb(107, 107, 107);
+}
+
+.header-card{
+  margin-bottom: 0px;
+}
+.subheader-card{
+  color: rgb(146, 146, 146);
 }
 
 

@@ -34,7 +34,7 @@
     - devicon-bootstrap-plain
 
 - name: Cat-landing
-  subname: One day Html project
+  subname: One day project.
   description: Cat lovers will love it, simple cat-landing page.
   image: card1.jpg
   url: https://pierrerichemond.github.io/cat-landing/
