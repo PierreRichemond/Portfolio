@@ -127,7 +127,17 @@
     grid-template-columns: 1fr;
   }
   .top-banner{
-    height: 55vh;
+    height: 70vh;
+    transition: 0.2s;
+  }
+}
+
+@media (min-width: 375px){
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  .top-banner{
+    height: 65vh;
     transition: 0.2s;
   }
 }
