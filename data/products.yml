@@ -1,6 +1,6 @@
 - name: Memo-me
   subname: Two weeks project.
-  description: Memo-me is an helper to be closer to children around you.
+  description: Memo-me is an app that helps you to be a closer friend to the kids in your life.
   image: memo-me.webp
   url: https://www.memo-me.co/
   github: https://github.com/PierreRichemond/Ikujitime
@@ -12,7 +12,7 @@
 
 - name: NotDIY
   subname: One week project.
-  description: Find someone to do that one thing you don't want to do!
+  description: Find someone to do tasks or handle situations you can't or don't want to do by yourself.
   image: notDIY.webp
   url: https://notdiy.herokuapp.com/
   github: https://github.com/PierreRichemond/NotDIY
@@ -24,7 +24,7 @@
 
 - name: Watch-list
   subname: Two days project.
-  description: Select your favorite movie genre and add it movies.
+  description: Select your favorite movie genre and add movies to it.
   image: 23887428.webp
   url: https://myfirstonlineapp.herokuapp.com/lists
   github: https://github.com/PierreRichemond/movie-lists
@@ -39,6 +39,17 @@
   image: card1.jpg
   url: https://pierrerichemond.github.io/cat-landing/
   github: https://github.com/PierreRichemond/cat-landing
+  tags:
+    - devicon-html5-plain
+    - devicon-css3-plain
+    - devicon-bootstrap-plain
+
+- name: Word Game
+  subname: One day project.
+  description: Try to find an english word from a defined a set of letters.
+  image: wordgame.png
+  url: https://is-that-an-english-word.herokuapp.com/
+  github: https://github.com/PierreRichemond/rails-longest-word-game
   tags:
     - devicon-html5-plain
     - devicon-css3-plain
