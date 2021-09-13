@@ -12,7 +12,7 @@
 
 - name: NotDIY
   subname: One week project.
-  description: Find someone to do tasks or handle situations you can't or don't want to do by yourself.
+  description: Find someone to handle situations you can't or don't want to do by yourself.
   image: notDIY_1.jpg
   url: https://notdiy.herokuapp.com/
   github: https://github.com/PierreRichemond/NotDIY
