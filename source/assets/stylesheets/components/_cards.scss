@@ -139,7 +139,7 @@
     grid-template-columns: 1fr;
   }
   .top-banner{
-    height: 90vh;
+    height: 100vh;
     transition: 0.2s;
   }
 }
@@ -149,7 +149,7 @@
     grid-template-columns: 1fr;
   }
   .top-banner{
-    height: 70vh;
+    height: 100vh;
     transition: 0.2s;
   }
 }
@@ -159,7 +159,10 @@
   .cards {
     grid-template-columns: 1fr;
   }
-
+    .top-banner{
+    height: 80vh;
+    transition: 0.2s;
+  }
 }
 
 // Medium devices (tablets, 768px and up)
