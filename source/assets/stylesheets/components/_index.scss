@@ -7,6 +7,7 @@
 @import "cards";
 @import "project";
 @import "navigation-button";
+@import "flipcard";
 
 
 body{
@@ -21,4 +22,7 @@ h1{
 
 h1, h2, h5, h6{
   font-family: 'Cinzel', serif;
+}
+.center{
+  text-align: center;
 }
