@@ -26,3 +26,16 @@ h1, h2, h5, h6{
 .center{
   text-align: center;
 }
+ul{
+  display: inline;
+}
+li{
+list-style-type: none;
+}
+li, a{
+  float: left;
+  text-decoration: none;
+  color: antiquewhite;
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+}

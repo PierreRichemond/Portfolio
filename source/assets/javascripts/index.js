@@ -14,15 +14,9 @@ document.querySelectorAll('.card__inner').forEach((card) => card.addEventListene
     card.classList.toggle('is-flipped');
   }));
 
-document.querySelectorAll('.description').forEach((card) => card.addEventListener('click',
-  () => {
-    this.classList.add('clear');
-  }));
-
 const descriptions = document.querySelectorAll('.description');
 
-// Loop through the elements.
 descriptions.forEach((card) => card.addEventListener('click',
   () => {
-    card.classList.add('clear');
+    card.classList.toggle('clear');
   }));
