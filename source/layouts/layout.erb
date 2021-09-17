@@ -8,8 +8,12 @@
     <!-- For Bootstrap responsiveness -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><%= current_page.data.title || "Pierre Richemond" %></title>
-    <!-- Comment this out when meta tags configured -->
+    <meta property="og:title" content="Pierre Richemond - Web Developer">
+    <meta property="og:site_name" content="Pierre Richemond - Web Developer">
+    <meta property="og:description" content="Pierre's online portfolio, Check my latest work!">
+    <meta property="og:image" content="portfolio.jpeg">
+    <meta property="og:url" content="https://pierre-richemond-portfolio.netlify.app/">
+    <meta property="og:type" content="portfolio" >
     <%#= display_meta_tags %>
     <%= favicon_tag 'Pierre-Richemond-logos.jpeg' %>
     <%= stylesheet_link_tag "app" %>
