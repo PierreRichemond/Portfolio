@@ -9,11 +9,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><%= current_page.data.title || "Pierre Richemond" %></title>
-    <%= display_meta_tags %>
     <meta property="og:title" content="<%= title %>">
     <meta property="og:project_name" content="<%= project_name %>">
     <meta property="og:description" content="<%= description %>">
-    <meta property="og:image" content="<%= image %>">
+    <meta property="og:image" content="<%= image_url(image) %>">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
   </head>
