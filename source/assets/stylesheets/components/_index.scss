@@ -14,6 +14,16 @@ body{
   background-image: image-url("dynamic-style.png");
 
   font-family: 'Roboto', sans-serif;
+
+  &::-webkit-scrollbar {
+    width: 0.4rem;
+  }
+  &::-webkit-scrollbar-track {
+    background: #F3F3F3;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: rgb(255, 190, 106);
+  }
 }
 
 h1{
