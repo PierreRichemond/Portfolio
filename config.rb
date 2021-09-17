@@ -18,6 +18,7 @@ set :js_dir,     'assets/javascripts'
 activate :autoprefixer do |config|
   config.browsers = '>0.25%, not ie 11, not op_mini all, not dead'
 end
+activate :metaman, host: 'https://pierre-richemond-portfolio.netlify.app/'
 
 activate :external_pipeline,
          name: :webpack,
