@@ -1,6 +1,7 @@
 Bundler.require :default, :test
 
 require 'capybara/cucumber'
+require 'active_support/all'
 
 middleman_app = ::Middleman::Application.new do
   config[:environment] = :test

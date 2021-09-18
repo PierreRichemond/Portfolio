@@ -6,6 +6,8 @@ gem 'middleman-gh-pages'
 gem 'middleman-metaman'
 gem 'rake'
 gem 'rubocop'
+gem 'pry'
+gem 'byebug'
 
 gem 'font-awesome-sass', '~> 5.13.0'
 

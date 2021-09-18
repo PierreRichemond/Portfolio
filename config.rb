@@ -1,6 +1,6 @@
 # General config
 # http://localhost:4567/__middleman
-
+require 'active_support/all'
 # Import custom libraries and helpers
 Dir['./*/*.rb'].each { |file| load file }
 
