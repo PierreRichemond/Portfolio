@@ -1,3 +1,15 @@
+- name: Paleo map
+  subname: 3 days project.
+  description: A website that informs you where dinosaur's fossils where discovered.
+  image: paleo-map.png
+  url: https://paleo-map101.herokuapp.com/
+  github: https://github.com/PierreRichemond/paleo-map
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain
+
 - name: Memo-me
   subname: Two weeks project.
   description: Memo-me is an app that helps you to be a closer friend to the kids in your life.
