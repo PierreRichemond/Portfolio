@@ -18,5 +18,5 @@ const descriptions = document.querySelectorAll('.description');
 
 descriptions.forEach((card) => card.addEventListener('click',
   () => {
-    card.classList.toggle('clear');
+    card.classList.add('clear');
   }));
