@@ -1,0 +1,11 @@
+en:
+    about_h2: "About me"
+    about_p: "Hi, I am Pierre Richemond 👋. I am a full stack developer from Paris living in Kobe. I spend my time on personal projects and learning more about Ruby on rails, HTML, CSS and JavaScript. I am interested in a full-time position using Ruby on Rails. Eventually, I would love to learn new languages! If you want to have a website or to upgrade your current one, contact me and we can discuss your options."
+    tools_h2: "Check what I use to code!"
+    tools: "Tools"
+    skills: "Skills"
+    tools_skills: "Skills & tools"
+    studies: "Studying"
+    projects: "Projects"
+    projects_p: "This is a list of personal projects."
+    click_for_more: "Click here for more"

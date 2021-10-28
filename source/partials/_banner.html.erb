@@ -5,14 +5,15 @@
         <div class="d-flex justify-content-center mt-5 mb-3">
           <%= image_tag "profile.jpeg", alt: "Pierre_photo", class: 'avatar-large mx-4'  %>
         </div>
+        <%= partial 'partials/language-selector' %>
         <div class="hero">
           <h1 class="title-main moving">Pierre Richemond</h1>
         </div>
         <div class="nav-cta">
           <ul>
-            <li><a href="#about-me"><span class="nav-link">About me</span></a></li>
-            <li><a href="#projects"><span class="nav-link">Projects</span></a></li>
-            <li><a href="#tools"><span class="nav-link">Skills & tools</span></a></li>
+            <li><a href="#about-me"><span class="nav-link"><%= t("about_h2") %></span></a></li>
+            <li><a href="#projects"><span class="nav-link"><%= t("projects") %></span></a></li>
+            <li><a href="#tools"><span class="nav-link"><%= t("tools_skills") %></span></a></li>
             <li><a href="#contact"><span class="nav-link">Contacts</span></a></li>
           </ul>
         </div>

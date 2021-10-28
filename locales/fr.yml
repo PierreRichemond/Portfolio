@@ -1,0 +1,11 @@
+fr:
+    about_h2: "À propos de moi"
+    about_p: "Bonjour à tous 👋, Je m'appelle Pierre. Je suis un Full-stack développeur. Je passe mon temps sur des projets personnel en utilisant Ruby on rails, HTML, CSS et JavaScript. Je suis à la recherche un poste à temps plein me permettant d'utiliser mes connaissances dans le domaine. Si vous voulez crée un site web, n'hésitez pas à me contacter pour qu'on en discute!"
+    tools_h2: "Regardez ce que j'utilise pour mes travaux!"
+    tools: "Mes outils"
+    skills: "Mes compétences"
+    tools_skills: "Outils & Compétences"
+    studies: "Ce que j'étudie en ce moment"
+    projects: "Mes projects"
+    projects_p: "Voici la liste de mes projets personels."
+    click_for_more: "Clickez ici"

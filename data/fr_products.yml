@@ -1,0 +1,80 @@
+- name: Auberge
+  subname: Projet en cours pour un membre de ma famille.
+  description: Presente les d2tails de l'auberge et les activitées aux alentours.
+  image: inn.jpg
+  url: https://le-clos-valliere.herokuapp.com/
+  github: https://github.com/PierreRichemond/Inn
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain
+
+- name: Paleo map
+  subname: Projet de 3/4 jours.
+  description: Une app qui montre sur une carte la location de chaque dinosaure.
+  image: paleo-map.png
+  url: https://paleo-map101.herokuapp.com/
+  github: https://github.com/PierreRichemond/paleo-map
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain
+
+- name: Memo-me
+  subname: Projet final du Wagon.
+  description: Memo-me est une app qui sert à garder des infos sur les enfants autour de nous.
+  image: memo-me_1.jpg
+  url: https://www.memo-me.co/
+  github: https://github.com/PierreRichemond/Ikujitime
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain
+
+- name: NotDIY
+  subname: Projet au Wagon.
+  description: Touve quelqu'un pour faire cette tâche dont tu veux te débarasser.
+  image: notDIY_1.jpg
+  url: https://notdiy.herokuapp.com/
+  github: https://github.com/PierreRichemond/NotDIY
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain
+
+- name: Watch-list
+  subname: projet de 2 jours.
+  description: Selectionner une catégorie de film et ajoutez y un que vous aimez.
+  image: 23887428-1.jpg
+  url: https://myfirstonlineapp.herokuapp.com/lists
+  github: https://github.com/PierreRichemond/movie-lists
+  tags:
+    - devicon-html5-plain
+    - devicon-css3-plain
+    - devicon-bootstrap-plain
+
+- name: Cat-landing
+  subname: Projet d'un jour.
+  description: Une page pour les amoureux des chats.
+  image: card1.jpg
+  url: https://pierrerichemond.github.io/cat-landing/
+  github: https://github.com/PierreRichemond/cat-landing
+  tags:
+    - devicon-html5-plain
+    - devicon-css3-plain
+    - devicon-bootstrap-plain
+
+- name: Word Game
+  subname: Projet d'un jour.
+  description: Essayez de trouver un mot anglais au sein de lettres données.
+  image: wordgame.png
+  url: https://is-that-an-english-word.herokuapp.com/
+  github: https://github.com/PierreRichemond/rails-longest-word-game
+  tags:
+    - devicon-html5-plain
+    - devicon-css3-plain
+    - devicon-bootstrap-plain

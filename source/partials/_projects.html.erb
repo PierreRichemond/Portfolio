@@ -2,36 +2,16 @@
   <div class="row">
     <div class="col-12">
       <div class="main-container" id="projects" style="margin-bottom: 0;background-color: transparent;padding-bottom: 0">
-        <h2 class='project-h2 moving'>Projects</h2>
-        <p class='project-p'>This is a list of personal and professional projects.</p>
+        <h2 class='project-h2 moving'><%= t("projects") %></h2>
+        <p class='project-p'><%= t("projects_p") %></p>
       </div>
       <div class="cards" style="padding-top: 4px;">
-        <% data.products.each do |product| %>
-          <div style=''>
-            <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= image_path(product.image) %>)">
-              <h3 class="white-text mt-2">Click here for more</h3>
-              <div class="description">
-                <h5 class="header-card"><%= product.name %></h5>
-                <h6 class='subheader-card'><%= product.subname %></h6>
-                <p><%= product.description %></p>
-                <div class="d-flex justify-content-between align-items-center mt-1">
-                  <div class="card-tags">
-                    <% product.tags.each do |tag| %>
-                      <span><i class="<%= tag %>"></i></span>
-                    <% end %>
-                  </div>
-                  <div>
-                    <% link_to product.url, class: 'external-link', target: '_blank' do %>
-                      <i class="fas fa-external-link-alt"></i>
-                    <% end %>
-                    <% link_to product.github, class: 'external-link', target: '_blank' do %>
-                      <i class="fab fa-github"></i>
-                    <% end %>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <%# Condition locale english or french here %>
+        <%# data.en_products || data.fr_products %>
+        <% if langs == :fr %>
+          <%= partial 'partials/fr-projects' %>
+        <% else %>
+          <%= partial 'partials/en-projects' %>
         <% end %>
       </div>
     </div>

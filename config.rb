@@ -42,3 +42,26 @@ configure :build do
   activate :minify_css
   activate :relative_assets
 end
+
+activate :i18n, :path => "/langs/:locale/"
+
+
+helpers do
+# Returns a hash of localized paths for a given page. Handy for use in a language selector.
+  def localized_paths_for(page)
+    localized_paths = {}
+
+    (langs).each do |locale|
+      # First look to see if locale version for the page exists:
+      locale_version_of_page = sitemap.resources.select do |resource|
+        # Find a page that matches the same file name with only the locale portion replaced
+        resource.proxied_to == page.proxied_to.gsub(".#{page.metadata[:options][:lang]}.", ".#{locale}.")
+      end.first
+
+      # If it exists, populate the localized_paths hash.
+      localized_paths[locale] = locale_version_of_page.url if locale_version_of_page
+    end
+
+    localized_paths
+  end
+end

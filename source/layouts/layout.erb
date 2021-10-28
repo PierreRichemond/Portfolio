@@ -23,6 +23,11 @@
     <%= stylesheet_link_tag "app" %>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <% if (I18n.locale == :en) %>
+      <link rel="alternate" hreflang="en" href="<%= current_page.url.gsub("fr", "en") %>" />
+    <% else %>
+      <link rel="alternate" hreflang="fr" href="<%= current_page.url.gsub("en", "fr") %>" />
+    <% end %>
   </head>
   <body>
     <%= yield %>
