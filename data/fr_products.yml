@@ -1,6 +1,6 @@
 - name: Auberge
   subname: Projet en cours pour un membre de ma famille.
-  description: Presente les d2tails de l'auberge et les activitées aux alentours.
+  description: Presente les détails de l'auberge et les activitées aux alentours.
   image: inn.jpg
   url: https://le-clos-valliere.herokuapp.com/
   github: https://github.com/PierreRichemond/Inn
