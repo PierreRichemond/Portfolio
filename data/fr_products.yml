@@ -1,3 +1,14 @@
+- name: Jeu en ligne
+  subname: Jeu type mmorpg.
+  description: Crée un combatant et faite le combattre pour gagner des niveaux.
+  image: game.png
+  url: https://piratecaptain101.herokuapp.com/
+  github: https://github.com/PierreRichemond/RPG
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+
 - name: Auberge
   subname: Projet en cours pour un membre de ma famille.
   description: Presente les détails de l'auberge et les activitées aux alentours.

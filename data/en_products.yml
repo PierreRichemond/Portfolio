@@ -1,3 +1,14 @@
+- name: Online game
+  subname: Mmorpg type-game
+  description: Create a fighter and have him fight to level up.
+  image: game.png
+  url: https://piratecaptain101.herokuapp.com/
+  github: https://github.com/PierreRichemond/RPG
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+
 - name: Inn
   subname: Ongoing project for a family member.
   description: Display the inn's features as well as activities around it.
