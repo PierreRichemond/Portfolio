@@ -1,3 +1,11 @@
+- name: Boat war
+  subname: French board game
+  description: place your boats on the board and try to sink your opponent boats'
+  image: bataille_navale.jpg
+  github: https://github.com/PierreRichemond/Boat_war
+  tags:
+    - devicon-ruby-plain-wordmark
+
 - name: Online game
   subname: Mmorpg type-game
   description: Create a fighter and have him fight to level up.
