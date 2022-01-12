@@ -1,0 +1,50 @@
+- name: Connect 4
+  subname: Board game - RSpec in ruby
+  description: Game in the Terminal with 2 players, each place disks on the board, the first that have 4 aligned wins.
+  image: connect4.png
+  github: https://github.com/PierreRichemond/Connect4
+  tags:
+    - devicon-ruby-plain-wordmark
+
+- name: Battleship
+  subname: Board game
+  description: Game in the Terminal with 2 players, each have 2 boats hidden to their opponent. Place your boats on the board and try to sink your opponent boats
+  image: bataille_navale.png
+  github: https://github.com/PierreRichemond/Battleship
+  tags:
+    - devicon-ruby-plain-wordmark
+
+- name: RPG Online game on browser
+  subname: Mmorpg type-game
+  description: A platform where you can create your very own fighter, try creating a few and have them fight. Your fighter will receive a random item at each level, gear up to get better stat before your next fight!
+  image: game.png
+  url: https://piratecaptain101.herokuapp.com/
+  github: https://github.com/PierreRichemond/RPG_on_browser
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+
+- name: Inn
+  subname: project for a family member.
+  description: An inn's website, you can check the inn's features and make a booking for specific dates. Check what are the interesting things to do around.
+  image: inn.jpg
+  url: https://le-clos-valliere.herokuapp.com/
+  github: https://github.com/PierreRichemond/Inn
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain
+
+- name: Paleo map
+  subname: API study.
+  description: A platform to search dinosaur's location using an API-database. Change the tag to where each dinosaur used to live.
+  image: paleo-map.png
+  url: https://paleo-map101.herokuapp.com/
+  github: https://github.com/PierreRichemond/paleo-map
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain

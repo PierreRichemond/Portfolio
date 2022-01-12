@@ -1,0 +1,57 @@
+- name: Memo-me
+  subname: Projet de deux semaine - Group de 3 - CI/CD.
+  description: Memo-me est une app qui sert à garder des infos sur les enfants autour de nous, que ce soit les anniversaire, ou les cadeaux que nous avons offert précédemment. Memo-me nous guide lors d'un événement à venir afin de réserver une activité ou acheter un cadeau pour l'enfant.
+  image: memo-me_1.jpg
+  url: https://www.memo-me.co/
+  github: https://github.com/PierreRichemond/Ikujitime
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain
+
+- name: NotDIY
+  subname: Projet d'une semaine - Group de 3 - CI/CD.
+  description: Avez-vous déjà été dans une situation hors de contrôle avec une tache moralement inconcevable à réaliser. Trouvez quelqu'un pour réaliser cette tâche dont vous voulez vous débarrasser.
+  image: notDIY_1.jpg
+  url: https://notdiy.herokuapp.com/
+  github: https://github.com/PierreRichemond/NotDIY
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain
+
+- name: Watch-list
+  subname: Premier projet Rails - projet solo - API.
+  description: Selectionner une catégorie de film et ajoutez y un que vous aimez.
+  image: 23887428-1.jpg
+  url: https://myfirstonlineapp.herokuapp.com/lists
+  github: https://github.com/PierreRichemond/movie-lists
+  tags:
+    - devicon-html5-plain
+    - devicon-css3-plain
+    - devicon-bootstrap-plain
+
+
+- name: Word Game
+  subname: HTML - JS - API.
+  description: Essayez de trouver un mot anglais au sein de lettres données.
+  image: wordgame.png
+  url: https://is-that-an-english-word.herokuapp.com/
+  github: https://github.com/PierreRichemond/rails-longest-word-game
+  tags:
+    - devicon-html5-plain
+    - devicon-css3-plain
+    - devicon-bootstrap-plain
+
+- name: Cat-landing
+  subname: Premier projet HTML.
+  description: Une page pour les amoureux des chats.
+  image: card1.jpg
+  url: https://pierrerichemond.github.io/cat-landing/
+  github: https://github.com/PierreRichemond/cat-landing
+  tags:
+    - devicon-html5-plain
+    - devicon-css3-plain
+    - devicon-bootstrap-plain

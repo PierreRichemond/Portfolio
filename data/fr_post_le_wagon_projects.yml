@@ -1,0 +1,50 @@
+- name: Puissance 4
+  subname: Jeux de plateau sur terminal - RSpec
+  description: Jeux sur le Terminal à deux joueurs, chaque joueur place ses jetons sur le plateau vertical, le premier qui aligne 4 jetons à gagner.
+  image: connect4.png
+  github: https://github.com/PierreRichemond/Connect4
+  tags:
+    - devicon-ruby-plain-wordmark
+
+- name: Bataille navale
+  subname: Jeux de plateau sur terminal
+  description: Jeux sur le Terminal à deux joueurs, tous deux ont deux bateaux cachés de leur adversaire. Positionnez vos bateaux et attaquer pour couler ceux de votre adversaire.
+  image: bataille_navale.png
+  github: https://github.com/PierreRichemond/Battleship
+  tags:
+    - devicon-ruby-plain-wordmark
+
+- name: Jeu en ligne
+  subname: Jeu type mmorpg.
+  description: Une plateforme où vous pouvez créer votre propre combattant. Créez en deux ou trois et faites-les s'affronter. Vos combattants gagnent des objets à tous les niveaux, n'oubliez pas de les équiper avant de lancer un nouveau combat.
+  image: game.png
+  url: https://piratecaptain101.herokuapp.com/
+  github: https://github.com/PierreRichemond/RPG_on_browser
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+
+- name: Auberge
+  subname: Projet pour un membre de ma famille.
+  description: Un site hôtelier qui présente les détails de l'auberge et les activités aux alentours. Vous pouvez également réserver pour des dates spécifiques.
+  image: inn.jpg
+  url: https://le-clos-valliere.herokuapp.com/
+  github: https://github.com/PierreRichemond/Inn
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain
+
+- name: Paleo map
+  subname: API study.
+  description: Une plateforme reliée à une base de données sur les dinosaures. Une fois sur le site, changer de catégorie de dinosaure pour voir où ils vivaient.
+  image: paleo-map.png
+  url: https://paleo-map101.herokuapp.com/
+  github: https://github.com/PierreRichemond/paleo-map
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain

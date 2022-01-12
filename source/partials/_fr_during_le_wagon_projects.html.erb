@@ -1,12 +1,14 @@
-<% data.en_products.each do |product| %>
-  <div>
-    <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= image_path(product.image) %>)">
-      <h3 class="white-text mt-2"><%= t("click_for_more") %></h3>
-      <div class="description">
-        <h5 class="header-card"><%= product.name %></h5>
-        <h6 class='subheader-card'><%= product.subname %></h6>
+<% data.fr_during_le_wagon_projects.each do |product| %>
+  <div class="card-category">
+    <div class="row">
+      <div class="col-12 col-lg-5">
+        <%= image_tag image_path(product.image), class: "image-size"%>
+      </div>
+      <div class="col-12 col-lg-7 description">
+        <h3 class="header-card"><%= product.name %></h3>
+        <h4 class='subheader-card'><%= product.subname %></h4>
         <p><%= product.description %></p>
-        <div class="d-flex justify-content-between align-items-center mt-1">
+        <div class="d-flex justify-content-between align-items-center mt-1 logos">
           <div class="card-tags">
             <% product.tags.each do |tag| %>
               <span><i class="<%= tag %>"></i></span>

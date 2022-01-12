@@ -3,20 +3,33 @@
 <div class="container">
   <!-- About Section -->
   <%= partial '../partials/about-me' %>
-  <!-- Projects Section -->
-<div class="pinky">
-  <div class="row">
-    <div class="col-12">
-      <div class="main-container" id="projects" style="margin-bottom: 0;background-color: transparent;padding-bottom: 0">
-        <h2 class='project-h2 moving'><%= t("projects") %></h2>
-        <p class='project-p'><%= t("projects_p") %></p>
-      </div>
-      <div class="cards" style="padding-top: 4px;">
-          <%= partial 'partials/en-projects' %>
+  <!-- Projects POST LEWAGON -->
+  <div class="pinky my-4 p-2">
+    <div class="main-container" id="projects" style="margin-bottom: 0;background-color: transparent;padding-bottom: 0">
+      <h2 class='project-h2 moving'><%= t("post_lewagon_projects_title") %></h2>
+      <p class='project-p'><%= t("projects_p") %></p>
+    </div>
+    <div class="" style="padding-top: 4px;">
+        <%= partial 'partials/en_post_le_wagon_projects.html.erb' %>
+    </div>
+  </div>
+
+    <!-- Projects DURING LeWAGON -->
+  <div class="pinky my-4 p-2">
+    <div class="row">
+      <div class="col-12">
+        <div class="main-container" style="margin-bottom: 0;background-color: transparent;padding-bottom: 0">
+          <h2 class='project-h2 moving'><%= t("lewagon_projects_title") %></h2>
+          <p class='project-p'><%= t("projects_lewagon_p") %></p>
+        </div>
+        <div class="" style="padding-top: 4px;">
+            <%= partial 'partials/en_during_le_wagon_projects.html.erb' %>
+        </div>
       </div>
     </div>
   </div>
-</div>
+
+
   <%= partial '../partials/tools' %>
   <%= partial '../partials/contact' %>
 </div>
