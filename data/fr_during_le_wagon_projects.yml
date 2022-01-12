@@ -34,7 +34,7 @@
     - devicon-bootstrap-plain
 
 
-- name: Word Game
+- name: Des mots et des lettres
   subname: HTML - JS - API.
   description: Essayez de trouver un mot anglais au sein de lettres données.
   image: wordgame.png
