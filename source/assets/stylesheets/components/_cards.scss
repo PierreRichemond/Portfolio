@@ -113,10 +113,17 @@
   color: black;
 }
 
+.tool-cards{
+  display: flex;
+  justify-content: space-around;
+}
 // Smallest device
-@media (min-width: 100px){
+@media (min-width: 100px) and (max-width: 374px){
   .cards {
     grid-template-columns: 1fr;
+  }
+  .tool-cards{
+    display: grid;
   }
   .top-banner{
     height: 100vh;
@@ -124,9 +131,12 @@
   }
 }
 
-@media (min-width: 375px){
+@media (min-width: 375px) and (max-width: 575px){
   .cards {
     grid-template-columns: 1fr;
+  }
+  .tool-cards{
+    display: grid;
   }
   .top-banner{
     height: 100vh;
@@ -139,6 +149,7 @@
   .cards {
     grid-template-columns: 1fr;
   }
+
     .top-banner{
     height: 80vh;
     transition: 0.2s;

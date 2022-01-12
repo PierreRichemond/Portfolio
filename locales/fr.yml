@@ -1,6 +1,6 @@
 fr:
     about_h2: "À propos de moi"
-    about_p: "Bonjour à tous 👋, Je m'appelle Pierre. Je suis un Full-stack développeur. Je passe mon temps sur des projets personnel en utilisant Ruby on rails, HTML, CSS et JavaScript. Je suis à la recherche un poste à temps plein me permettant d'utiliser mes connaissances dans le domaine. Si vous voulez crée un site web, n'hésitez pas à me contacter pour qu'on en discute!"
+    about_p: "Bonjour à tous 👋, Je m'appelle Pierre. Je suis un développeur Full-stack . Je passe mon temps sur des projets personnels en utilisant Ruby on rails, HTML, CSS et JavaScript. Je suis à la recherche d'un poste à temps plein me permettant d'utiliser mes connaissances dans le domaine. Si vous voulez créer un site web, n'hésitez pas à me contacter pour qu'on en discute!"
     tools_h2: "Regardez ce que j'utilise pour mes travaux!"
     tools: "Mes outils"
     skills: "Mes compétences"
@@ -8,6 +8,5 @@ fr:
     studies: "Ce que j'étudie en ce moment"
     post_lewagon_projects_title: "Mes projets"
     lewagon_projects_title: "Projets au Wagon"
-    projects_p: "Voici la liste de mes projets personels apres avoir finaliser la formation au Wagon"
-    projects_lewagon_p: "Voici l'ensemble des projet pour lesquels j'ai participé au sein de ma formation au Wagon"
-    click_for_more: "Clickez ici"
+    projects_p: "Voici la liste de mes projets personels apres avoir finaliser la formation au Wagon."
+    projects_lewagon_p: "Voici l'ensemble des projet sur lesquels j'ai travaillé au sein de ma formation au Wagon."
