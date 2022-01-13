@@ -11,7 +11,7 @@ if (document.getElementById('animate-fr')) {
 }
 if (document.getElementById('animate-en')) {
   new Typed('#animate-en', {
-    strings: ['Cusiosity', 'Problem-solving', 'Teamwork', 'Communication', 'Patience'],
+    strings: ['Curiosity', 'Problem-solving', 'Teamwork', 'Communication', 'Patience'],
     typeSpeed: 70,
     loop: true
   });
