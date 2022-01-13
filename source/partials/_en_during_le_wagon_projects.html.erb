@@ -1,5 +1,5 @@
 <% data.en_during_le_wagon_projects.each do |product| %>
-  <div class="card-category" data-aos=<%= ['fade-up', 'fade-right', 'fade-left'].sample %> data-aos-easing="ease-out-cubic" data-aos-duration="500">
+  <div class="card-category" >
     <div class="row">
       <% if product.id.even? %>
         <%= partial '../partials/project_description', :locals => { :product => product } %>
