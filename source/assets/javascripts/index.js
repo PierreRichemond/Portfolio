@@ -16,6 +16,7 @@ if (document.getElementById('animate-en')) {
     loop: true
   });
 }
+AOS.init();
 
 document.querySelectorAll('.card__inner').forEach((card) => card.addEventListener('click',
   () => {
