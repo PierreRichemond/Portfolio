@@ -1,31 +1,13 @@
 <% data.en_during_le_wagon_projects.each do |product| %>
   <div class="card-category">
     <div class="row">
-      <div class="col-12 col-lg-5">
-        <%= image_tag image_path(product.image), class: "image-size"%>
-      </div>
-      <div class="col-12 col-lg-7 description">
-        <h3 class="header-card"><%= product.name %></h3>
-        <h4 class='subheader-card'><%= product.subname %></h4>
-        <p><%= product.description %></p>
-          <div class="d-flex justify-content-between align-items-center mt-1 logos">
-            <div class="card-tags">
-              <% product.tags.each do |tag| %>
-                <span><i class="<%= tag %>"></i></span>
-              <% end %>
-            </div>
-            <div>
-              <% if product.url.present?%>
-                <% link_to product.url, class: 'external-link', target: '_blank' do %>
-                  <i class="fas fa-external-link-alt"></i>
-                <% end %>
-              <% end %>
-              <% link_to product.github, class: 'external-link', target: '_blank' do %>
-                <i class="fab fa-github"></i>
-              <% end %>
-            </div>
-          </div>
-      </div>
+      <% if product.id.even? %>
+        <%= partial '../partials/project_description', :locals => { :product => product } %>
+        <%= partial '../partials/project_image', :locals => { :product => product } %>
+      <% else %>
+        <%= partial '../partials/project_image', :locals => { :product => product } %>
+        <%= partial '../partials/project_description', :locals => { :product => product } %>
+      <% end %>
     </div>
   </div>
 <% end %>

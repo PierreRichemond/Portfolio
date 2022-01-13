@@ -9,6 +9,7 @@
     - devicon-postgresql-plain-wordmark
     - devicon-heroku-original
     - devicon-javascript-plain
+  id: 5
 
 - name: NotDIY
   subname: Projet d'une semaine - Group de 3 - CI/CD.
@@ -21,6 +22,7 @@
     - devicon-postgresql-plain-wordmark
     - devicon-heroku-original
     - devicon-javascript-plain
+  id: 4
 
 - name: Watch-list
   subname: Premier projet Rails - projet solo - API.
@@ -32,6 +34,7 @@
     - devicon-html5-plain
     - devicon-css3-plain
     - devicon-bootstrap-plain
+  id: 3
 
 
 - name: Des mots et des lettres
@@ -44,6 +47,7 @@
     - devicon-html5-plain
     - devicon-css3-plain
     - devicon-bootstrap-plain
+  id: 2
 
 - name: Cat-landing
   subname: Premier projet HTML.
@@ -55,3 +59,4 @@
     - devicon-html5-plain
     - devicon-css3-plain
     - devicon-bootstrap-plain
+  id: 1

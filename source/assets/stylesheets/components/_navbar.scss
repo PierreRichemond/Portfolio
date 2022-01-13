@@ -17,3 +17,33 @@
   border-radius: 5px;
   width: 100%;
 }
+
+.name-gradient-left-to-right {
+    background-image: linear-gradient(to right, #0000,#3a362f, #ee9b2e, #EB5C33);
+    -webkit-background-clip: text;
+        background-clip: text;
+    color: transparent;
+
+    background-size: 300%;
+    background-position: -100%;
+
+    animation: animatedText 12s infinite alternate-reverse;
+}
+
+.name-gradient-right-to-left {
+    background-image: linear-gradient(to left, #0000,#3a362f, #ee9b2e, #EB5C33);
+    -webkit-background-clip: text;
+        background-clip: text;
+    color: transparent;
+
+    background-size: 300%;
+    background-position: -100%;
+
+    animation: animatedText 12s infinite alternate-reverse;
+}
+
+@keyframes animatedText{
+  to{
+    background-position: 100%;
+    }
+}

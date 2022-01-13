@@ -9,6 +9,7 @@
     - devicon-postgresql-plain-wordmark
     - devicon-heroku-original
     - devicon-javascript-plain
+  id: 10
 
 - name: Jeu en ligne
   subname: Jeu type mmorpg.
@@ -20,6 +21,7 @@
     - devicon-rails-plain-wordmark
     - devicon-postgresql-plain-wordmark
     - devicon-heroku-original
+  id: 9
 
 - name: Paleo map
   subname: API study.
@@ -32,6 +34,7 @@
     - devicon-postgresql-plain-wordmark
     - devicon-heroku-original
     - devicon-javascript-plain
+  id: 8
 
 - name: Puissance 4
   subname: Jeux de plateau sur terminal - RSpec
@@ -40,6 +43,7 @@
   github: https://github.com/PierreRichemond/Connect4
   tags:
     - devicon-ruby-plain-wordmark
+  id: 7
 
 - name: Bataille navale
   subname: Jeux de plateau sur terminal
@@ -48,3 +52,4 @@
   github: https://github.com/PierreRichemond/Battleship
   tags:
     - devicon-ruby-plain-wordmark
+  id: 6

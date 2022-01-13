@@ -1,6 +1,6 @@
 en:
     about_h2: "About me"
-    about_p: "Hi, I am Pierre Richemond 👋. I am a full stack developer from Paris living in Kobe. I spend my time on personal projects and learning more about Ruby on rails, HTML, CSS and JavaScript. I am interested in a full-time position using Ruby on Rails. Eventually, I would love to learn new languages! If you want to have a website or to upgrade your current one, contact me and we can discuss your options."
+    about_p_html: "👋 Hi, I am Pierre Richemond.<br>I am a full stack developer from Paris living in Kobe. I spend my time on personal projects and learning more about Ruby on rails, HTML, CSS and JavaScript. I am interested in a full-time position using Ruby on Rails. Eventually, I would love to learn new languages! If you want to have a website or to upgrade your current one, contact me and we can discuss your options."
     tools_h2: "Check what I use to code!"
     tools: "Tools"
     skills: "Skills"
@@ -10,3 +10,5 @@ en:
     lewagon_projects_title: "Projects at Le Wagon"
     projects_p: "This is a list of personal projects after the training at Le Wagon."
     projects_lewagon_p: "Here are the projects I worked on during the training at Le Wagon"
+    animate: 'animate-en'
+    is_my_thing: 'is my thing.'
