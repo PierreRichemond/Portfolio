@@ -46,7 +46,7 @@
   id: 7
 
 - name: Bataille navale
-  subname: Jeux de plateau sur terminal
+  subname: Jeux de plateau sur terminal - RSpec
   description: Jeux sur le Terminal à deux joueurs, tous deux ont deux bateaux cachés de leur adversaire. Positionnez vos bateaux et attaquer pour couler ceux de votre adversaire.
   image: bataille_navale.png
   github: https://github.com/PierreRichemond/Battleship

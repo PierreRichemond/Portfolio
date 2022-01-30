@@ -37,12 +37,15 @@
   bottom: 0;
   width: 66px;
 }
+a{
+  opacity: 0.8;
+  transition: 0.5s;
+  &:hover {
+    opacity: 1;
+    text-decoration: none;
+    color: #ee9b2e;
+  };
+}
 .nav-arrow {
   font-size: 32px;
-}
-
-.link-gray {
-  &:hover {
-    text-decoration: none;
-  }
 }

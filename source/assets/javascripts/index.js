@@ -5,14 +5,14 @@ import AOS from 'aos';
 if (document.getElementById('animate-fr')) {
   new Typed ('#animate-fr', {
     strings: ['La curiosité', 'Résoudre des problèmes', 'Le Travail d\'équipe', 'La Communication', 'La patience'],
-    typeSpeed: 70,
+    typeSpeed: 80,
     loop: true
   });
 }
 if (document.getElementById('animate-en')) {
   new Typed('#animate-en', {
     strings: ['Curiosity', 'Problem-solving', 'Teamwork', 'Communication', 'Patience'],
-    typeSpeed: 70,
+    typeSpeed: 80,
     loop: true
   });
 }

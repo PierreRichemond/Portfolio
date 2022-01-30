@@ -45,7 +45,7 @@
     - devicon-ruby-plain-wordmark
   id: 7
 
-- name: Battleship
+- name: Battleship - RSpec in ruby
   subname: Board game
   description: Game in the Terminal with 2 players, each have 2 boats hidden to their opponent. Place your boats on the board and try to sink your opponent boats
   image: bataille_navale.png
