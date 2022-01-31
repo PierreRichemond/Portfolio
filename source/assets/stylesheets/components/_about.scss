@@ -9,12 +9,21 @@
   font-size: 20px;
   line-height: 1.4;
   color: black;
-   text-align: center;
+  text-align: justify;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.about-intro{
+  text-align: center;
+    font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 0;
 }
 
 .pinky{
   background-color: rgb(253, 248, 241);
-  text-align: justify;
+  text-align: justify & center;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 5px;
 }

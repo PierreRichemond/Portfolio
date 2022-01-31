@@ -1,6 +1,7 @@
 fr:
     about_h2: "À propos de moi"
-    about_p_html: "👋 Bonjour à tous! Je m'appelle Pierre.<br> Je suis un développeur Full-stack . Je passe mon temps sur des projets personnels en utilisant Ruby on rails, HTML, CSS et JavaScript. Je suis à la recherche d'un poste à temps plein me permettant d'utiliser mes connaissances dans le domaine. Si vous voulez créer un site web, n'hésitez pas à me contacter pour qu'on en discute!"
+    about_intro_html: "👋 Bonjour à tous! Je m'appelle Pierre."
+    about_p_html: "Je suis un développeur Full-stack . Je passe mon temps sur des projets personnels en utilisant Ruby on rails, HTML, CSS et JavaScript. Je suis à la recherche d'un poste à temps plein me permettant d'utiliser mes connaissances dans le domaine. Si vous voulez créer un site web, n'hésitez pas à me contacter pour qu'on en discute!"
     tools_h2: "Regardez ce que j'utilise pour mes travaux!"
     tools: "Mes outils"
     skills: "Mes compétences"

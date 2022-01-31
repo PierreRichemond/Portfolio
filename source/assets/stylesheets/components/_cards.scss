@@ -3,6 +3,7 @@
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   margin-bottom: 2em;
   position: relative;
+  max-height: fit-content;
 }
 .image-size{
   width:100%;
@@ -18,7 +19,8 @@
   margin-bottom: 1em;
   border-radius: 5px;
   text-align: center;
-  height: 250px;
+  min-height: 250px;
+
   // -webkit-transition: 1s;
 
   // &:hover {
@@ -130,6 +132,13 @@
     height: 100vh;
     transition: 0.2s;
   }
+  .about-p{
+    padding-right: 0em;
+    padding-left: 0em;
+  }
+  .description{
+    min-height: 280px;
+  }
 }
 
 @media (min-width: 375px) and (max-width: 575px){
@@ -144,6 +153,13 @@
     height: 100vh;
     transition: 0.2s;
   }
+  .about-p{
+    padding-right: 0em;
+    padding-left: 0em;
+  }
+  .description{
+    min-height: 280px;
+  }
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -152,9 +168,12 @@
     grid-template-columns: 1fr;
   }
 
-    .top-banner{
+  .top-banner{
     height: 80vh;
     transition: 0.2s;
+  }
+  .description{
+    min-height: 280px;
   }
 }
 
@@ -163,11 +182,13 @@
   .cards {
     grid-template-columns: 1fr 1fr;
   }
-    .top-banner{
-    height: 65vh;
+  .top-banner{
+    height: 60vh;
     transition: 0.2s;
   }
-
+  .description{
+    min-height: 280px;
+  }
 }
 
 // Large devices (desktops, 992px and up)
@@ -176,8 +197,11 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
   .top-banner{
-    height:55vh;
+    height:60vh;
     transition: 0.2s;
+  }
+  .description{
+    min-height: 250px;
   }
 
 }
@@ -188,7 +212,7 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
     .top-banner{
-    height:40vh;
+    height:45vh;
     transition: 0.2s;
   }
 }
