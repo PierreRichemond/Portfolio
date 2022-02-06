@@ -9,7 +9,7 @@
     - devicon-postgresql-plain-wordmark
     - devicon-heroku-original
     - devicon-javascript-plain
-  id: 10
+  id: 12
 
 - name: Jeu en ligne
   subname: Jeu type mmorpg.
@@ -21,7 +21,7 @@
     - devicon-rails-plain-wordmark
     - devicon-postgresql-plain-wordmark
     - devicon-heroku-original
-  id: 9
+  id: 11
 
 - name: Paleo map
   subname: API study.
@@ -34,6 +34,30 @@
     - devicon-postgresql-plain-wordmark
     - devicon-heroku-original
     - devicon-javascript-plain
+  id: 10
+
+- name: Workout Lounge
+  subname: RSpec - Capybara
+  description: Une plateforme pour lister ces exercices physiques et les partager avec nos contacts.
+  image: workout.png
+  url: https://workout-under-rspec.herokuapp.com/
+  github: https://github.com/PierreRichemond/Workout
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+  id: 9
+
+- name: Blog
+  subname: RSpec - Capybara
+  description: Un blog où on peut poster des articles et y attacher des commentaires.
+  image: blog.png
+  url: https://blog-under-rspec.herokuapp.com/
+  github: https://github.com/PierreRichemond/Blog
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
   id: 8
 
 - name: Puissance 4
