@@ -11,8 +11,8 @@
     - devicon-javascript-plain
   id: 12
 
-- name: Jeu en ligne
-  subname: Jeu type mmorpg.
+- name: Jeu sur Navigateur
+  subname: Jeu type RPG
   description: Une plateforme où vous pouvez créer votre propre combattant. Créez en deux ou trois et faites-les s'affronter. Vos combattants gagnent des objets à tous les niveaux, n'oubliez pas de les équiper avant de lancer un nouveau combat.
   image: game.png
   url: https://piratecaptain101.herokuapp.com/
@@ -24,7 +24,7 @@
   id: 11
 
 - name: Paleo map
-  subname: API study.
+  subname: API study
   description: Une plateforme reliée à une base de données sur les dinosaures. Une fois sur le site, changer de catégorie de dinosaure pour voir où ils vivaient.
   image: paleo-map.png
   url: https://paleo-map101.herokuapp.com/
@@ -38,7 +38,7 @@
 
 - name: Workout Lounge
   subname: RSpec - Capybara
-  description: Une plateforme pour lister ces exercices physiques et les partager avec nos contacts.
+  description: Une plateforme pour decrire ces exercices physiques et les partager avec nos contacts.
   image: workout.png
   url: https://workout-under-rspec.herokuapp.com/
   github: https://github.com/PierreRichemond/Workout
