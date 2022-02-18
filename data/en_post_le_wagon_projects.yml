@@ -9,6 +9,19 @@
     - devicon-postgresql-plain-wordmark
     - devicon-heroku-original
     - devicon-javascript-plain
+  id: 13
+
+- name: Restaurant-API
+  subname: Public Api
+  description: A public API where anybody can register and comment restaurants.
+  image: restaurant-api.png
+  url: https://restaurant-api-public.herokuapp.com/
+  github: https://github.com/PierreRichemond/restaurants-api
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-ruby-plain-wordmark
+    - devicon-heroku-original
   id: 12
 
 - name: Online game on browser
@@ -20,7 +33,9 @@
   tags:
     - devicon-rails-plain-wordmark
     - devicon-postgresql-plain-wordmark
+    - devicon-ruby-plain-wordmark
     - devicon-heroku-original
+    - devicon-javascript-plain
   id: 11
 
 - name: Paleo map
