@@ -11,19 +11,6 @@
     - devicon-javascript-plain
   id: 13
 
-- name: Restaurant-API
-  subname: Public Api
-  description: Une API public où chacun peu enregistrer des restaurants et laisser des commentaires..
-  image: restaurant-api.png
-  url: https://restaurant-api-public.herokuapp.com/
-  github: https://github.com/PierreRichemond/restaurants-api
-  tags:
-    - devicon-rails-plain-wordmark
-    - devicon-postgresql-plain-wordmark
-    - devicon-ruby-plain-wordmark
-    - devicon-heroku-original
-  id: 12
-
 - name: Jeu sur Navigateur
   subname: Jeu type RPG
   description: Une plateforme où vous pouvez créer votre propre combattant. Créez en deux ou trois et faites-les s'affronter. Vos combattants gagnent des objets à tous les niveaux, n'oubliez pas de les équiper avant de lancer un nouveau combat.
@@ -36,7 +23,7 @@
     - devicon-ruby-plain-wordmark
     - devicon-heroku-original
     - devicon-javascript-plain
-  id: 11
+  id: 12
 
 - name: Paleo map
   subname: API study
@@ -49,6 +36,19 @@
     - devicon-postgresql-plain-wordmark
     - devicon-heroku-original
     - devicon-javascript-plain
+  id: 11
+
+- name: Restaurant-API
+  subname: Public Api
+  description: Une API public où chacun peu enregistrer des restaurants et laisser des commentaires..
+  image: restaurant-api.png
+  url: https://restaurant-api-public.herokuapp.com/
+  github: https://github.com/PierreRichemond/restaurants-api
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-ruby-plain-wordmark
+    - devicon-heroku-original
   id: 10
 
 - name: Workout Lounge
