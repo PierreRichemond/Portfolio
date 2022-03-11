@@ -4,7 +4,7 @@ import AOS from 'aos';
 
 if (document.getElementById('animate-fr')) {
   new Typed ('#animate-fr', {
-    strings: ['La curiosité', 'Résoudre des problèmes', 'Le Travail d\'équipe', 'La Communication', 'La patience'],
+    strings: ['La curiosité', 'Résoudre des problèmes', 'Le travail d\'équipe', 'La communication', 'La patience'],
     typeSpeed: 80,
     loop: true
   });
