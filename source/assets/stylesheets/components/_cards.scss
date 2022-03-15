@@ -121,12 +121,9 @@
 }
 // Smallest device
 @media (min-width: 100px) and (max-width: 374px){
-  .cards {
-    grid-template-columns: 1fr;
-  }
   .tool-cards{
     display: grid;
-    margin-bottom: 2em;
+    margin: 0 auto;
   }
   .top-banner{
     height: 100vh;
@@ -142,13 +139,11 @@
 }
 
 @media (min-width: 375px) and (max-width: 575px){
-  .cards {
-    grid-template-columns: 1fr;
-  }
   .tool-cards{
     display: grid;
-    margin-bottom: 2em;
+    margin: 0 auto;
   }
+
   .top-banner{
     height: 100vh;
     transition: 0.2s;
@@ -164,8 +159,9 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-  .cards {
-    grid-template-columns: 1fr;
+  .tool-cards{
+    display: grid;
+    margin: 0 auto;
   }
 
   .top-banner{
@@ -179,8 +175,9 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-  .cards {
-    grid-template-columns: 1fr 1fr;
+  .tool-cards{
+    display: grid;
+    margin: 0 auto;
   }
   .top-banner{
     height: 100vh;
@@ -193,8 +190,9 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-  .cards {
-    grid-template-columns: 1fr 1fr 1fr;
+  .tool-cards {
+    display: flex;
+    justify-content: space-around;
   }
   .top-banner{
     height:100vh;
@@ -208,8 +206,9 @@
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-  .cards {
-    grid-template-columns: 1fr 1fr 1fr;
+  .tool-cards {
+    display: flex;
+    justify-content: space-around;
   }
     .top-banner{
     height:75vh;
@@ -218,8 +217,9 @@
 }
 
 @media (min-width: 1600px) {
-  .cards {
-    grid-template-columns: 1fr 1fr 1fr;
+  .tool-cards {
+    display: flex;
+    justify-content: space-around;
   }
     .top-banner{
     height:75vh;
