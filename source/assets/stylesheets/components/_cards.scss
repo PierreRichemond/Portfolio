@@ -169,7 +169,7 @@
   }
 
   .top-banner{
-    height: 80vh;
+    height: 100vh;
     transition: 0.2s;
   }
   .description{
@@ -183,7 +183,7 @@
     grid-template-columns: 1fr 1fr;
   }
   .top-banner{
-    height: 60vh;
+    height: 100vh;
     transition: 0.2s;
   }
   .description{
@@ -197,7 +197,7 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
   .top-banner{
-    height:60vh;
+    height:100vh;
     transition: 0.2s;
   }
   .description{
@@ -212,7 +212,18 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
     .top-banner{
-    height:45vh;
+    height:75vh;
     transition: 0.2s;
+  }
+}
+
+@media (min-width: 1600px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+    .top-banner{
+    height:75vh;
+    transition: 0.2s;
+    padding-top: 125px;
   }
 }
