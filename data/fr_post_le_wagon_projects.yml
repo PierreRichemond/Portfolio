@@ -1,5 +1,5 @@
 - name: Auberge
-  subname: Projet pour un membre de ma famille.
+  subname: Stripe - API
   description: Un site hôtelier qui présente les détails de l'auberge et les activités aux alentours. Vous pouvez également réserver pour des dates spécifiques.
   image: inn.png
   url: https://le-clos-valliere.herokuapp.com/
@@ -12,7 +12,7 @@
   id: 13
 
 - name: Jeu sur Navigateur
-  subname: Jeu type RPG
+  subname: RPG
   description: Une plateforme où vous pouvez créer votre propre combattant. Créez en deux ou trois et faites-les s'affronter. Vos combattants gagnent des objets à tous les niveaux, n'oubliez pas de les équiper avant de lancer un nouveau combat.
   image: game.png
   url: https://piratecaptain101.herokuapp.com/
@@ -26,7 +26,7 @@
   id: 12
 
 - name: Paleo map
-  subname: API study
+  subname: API
   description: Une plateforme reliée à une base de données sur les dinosaures. Une fois sur le site, changer de catégorie de dinosaure pour voir où ils vivaient.
   image: paleo-map.png
   url: https://paleo-map101.herokuapp.com/
@@ -38,8 +38,8 @@
     - devicon-javascript-plain
   id: 11
 
-- name: Restaurant-API
-  subname: Public Api
+- name: Restaurant
+  subname: Api
   description: Une API public où chacun peu enregistrer des restaurants et laisser des commentaires..
   image: restaurant-api.png
   url: https://restaurant-api-public.herokuapp.com/
