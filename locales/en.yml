@@ -1,7 +1,7 @@
 en:
     about_h2: "About me"
     about_intro_html: "👋 Hi, I am Pierre Richemond."
-    about_p_html: "I am a Full Stack developer. I use Ruby and JavaScript for the development of my applications. In my free time, I love to solve Katas on CodeWars then compare with the other solutions to discover new ways to code. If you want to have a website or to upgrade your current one, contact me and we can discuss your options."
+    about_p_html: "I am a Full Stack developer. After learning coding in Le wagon bootcamp, I've had the opportunity to work as a full stack developer in a startup using Ruby on rails, Rspec and Stimulus."
     tools_h2: "Check what I use to code!"
     tools: "Tools"
     skills: "Skills"
