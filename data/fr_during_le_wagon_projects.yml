@@ -2,7 +2,6 @@
   subname: Projet de deux semaine - Group de 3 - CI/CD.
   description: Memo-me est une app qui sert à garder des infos sur les enfants autour de nous, que ce soit les anniversaire, ou les cadeaux que nous avons offert précédemment. Memo-me nous guide lors d'un événement à venir afin de réserver une activité ou acheter un cadeau pour l'enfant.
   image: memo-me_1.jpg
-  url: https://www.memo-me.co/
   github: https://github.com/PierreRichemond/Ikujitime
   tags:
     - devicon-rails-plain-wordmark

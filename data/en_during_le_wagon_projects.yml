@@ -2,7 +2,6 @@
   subname: Two weeks project - group of 3 - CI/CD.
   description: Memo-me is an app that helps you to be a closer friend to the kids in your life. It helps you keep informations about those that you care about, birthday and past or future events. It also guides you to activities to do with the kid and gifts you might get for him/her.
   image: memo-me_1.jpg
-  url: https://www.memo-me.co/
   github: https://github.com/PierreRichemond/Ikujitime
   tags:
     - devicon-rails-plain-wordmark
