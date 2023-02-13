@@ -1,6 +1,6 @@
 - name: Auberge
   subname: Stripe - API
-  description: Un site hôtelier qui présente les détails de l'auberge et les activités aux alentours. Vous pouvez également réserver pour des dates spécifiques.
+  description: Un site hôtelier qui présente les détails de l'auberge et les activités aux alentours. Vous pouvez également réserver pour des dates spécifiques. App testé integrallement.
   image: inn.png
   url: https://inn.herokuapp.com/
   github: https://github.com/PierreRichemond/Inn
@@ -16,7 +16,6 @@
   subname: RPG
   description: Une plateforme où vous pouvez créer votre propre combattant. Créez en deux ou trois et faites-les s'affronter. Vos combattants gagnent des objets à tous les niveaux, n'oubliez pas de les équiper avant de lancer un nouveau combat.
   image: game.png
-  url: https://rpg-fighter.herokuapp.com/
   github: https://github.com/PierreRichemond/RPG_on_browser
   tags:
     - devicon-rails-plain-wordmark
@@ -30,7 +29,6 @@
   subname: API
   description: Une plateforme reliée à une base de données sur les dinosaures. Une fois sur le site, changer de catégorie de dinosaure pour voir où ils vivaient.
   image: paleo-map.png
-  url: https://paleo---map.herokuapp.com/
   github: https://github.com/PierreRichemond/paleo-map
   tags:
     - devicon-rails-plain-wordmark
