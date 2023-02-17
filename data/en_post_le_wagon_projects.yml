@@ -1,6 +1,9 @@
 - name: Inn
-  subname: Stripe / Api calls
-  description: An inn's website, you can check the inn's features and make a booking for specific dates. Check what are the interesting things to do around.
+  subname: Stripe / Api calls / Active Admin / Rspec
+  description: An inn's website, you can check the inn's features and the Admin interface.
+  techs: Mapbox.API, Google.API, Rails Mailer, Active admin, Stripe, cloudinary...
+  tests: Fully tested
+  recommand: It is my most interresting project, follow the links =>
   image: inn.png
   url: https://inn.herokuapp.com/
   github: https://github.com/PierreRichemond/Inn

@@ -1,6 +1,9 @@
 - name: Auberge
-  subname: Stripe - API
-  description: Un site hôtelier qui présente les détails de l'auberge et les activités aux alentours. Vous pouvez également réserver pour des dates spécifiques. App testé integrallement.
+  subname: Stripe - API - Active Admin - Rspec
+  description: Un site hôtelier qui présente les détails de l'auberge et les activités aux alentours.
+  techs: Mapbox.API, Google.API, Rails Mailer, Active admin, Stripe, cloudinary...
+  tests: Integralement tester
+  recommand: Ce projet est le plus interressant, visitez les liens =>
   image: inn.png
   url: https://inn.herokuapp.com/
   github: https://github.com/PierreRichemond/Inn
