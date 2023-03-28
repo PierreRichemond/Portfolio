@@ -5,7 +5,7 @@
   tests: Integralement tester
   recommand: Ce projet est le plus interressant, visitez les liens =>
   image: inn.png
-  url: https://inn-production.herokuapp.com/
+  url: https://inn.herokuapp.com/
   github: https://github.com/PierreRichemond/Inn
   tags:
     - devicon-rails-plain-wordmark
