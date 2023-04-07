@@ -21,8 +21,9 @@
   margin-bottom: 0;
 }
 
-.pinky{
-  background-color: rgb(253, 248, 241);
+.color-gradient{
+  background: rgb(255, 230, 156);
+  background: linear-gradient(90deg, rgba(255, 230, 156, 1) 0%, rgba(255, 243, 203, 0.3421962535014006) 56%, rgba(255, 242, 163, 1) 100%);
   text-align: justify;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 5px;

@@ -1,16 +1,17 @@
 fr:
-    about_h2: "À propos de moi"
+    about_h2: "À propos"
     about_intro_html: "👋 Bonjour à tous! Je m'appelle Pierre."
-    about_p_html: "Je suis un développeur Full-stack. Après avoir achevé le bootcamp du Wagon, j'ai eu l'opportunité de travailler dans une start up en tant que full stack developpeur. Cela m'a permis d'ameliorer grandement mes connaissances sur Rails, Rspec et Stimulus."
+    about_p_html: "Je suis un développeur Full-stack à la recherche de nouvelles aventures professionnelles, que ce soit en Freelance ou en CDI, je suis prêt à m'investir à 1 000% dans un projet grandissant🚀🚀🚀. De la création à la conception ou encore la mise en production de votre site, je suis capable de vous accompagner. Je suis à l'écoute de votre besoin alors n'hésitez pas à me contacter et me décrivant votre projet 😉. je reviendrais vers vous dans les plus brefs délais!"
     tools_h2: "Regardez ce que j'utilise pour mes travaux!"
-    tools: "Mes outils"
-    skills: "Mes compétences"
+    tools: "Outils"
+    skills: "Compétences"
     tools_skills: "Outils & Compétences"
     studies: "Ce que j'étudie en ce moment"
-    post_lewagon_projects_title: "Projets après Le Wagon"
+    post_lewagon_projects_title: "Projets personnels"
     lewagon_projects_title: "Projets au Wagon"
     projects_p: "Voici la liste de mes projets personels."
     projects_lewagon_p: "Voici l'ensemble des projet sur lesquels j'ai travaillé au sein de ma formation au Wagon."
     animate: "animate-fr"
     is_my_thing: ", c'est mon truc."
     book: 'Lecture'
+    volunteering: Volontariat
