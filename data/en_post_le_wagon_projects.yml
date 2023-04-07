@@ -13,7 +13,7 @@
     - devicon-heroku-original
     - devicon-javascript-plain
     - devicon-stripe
-  id: 13
+  id: 1
 
 - name: Online game on browser
   subname: RPG
@@ -26,7 +26,7 @@
     - devicon-ruby-plain-wordmark
     - devicon-heroku-original
     - devicon-javascript-plain
-  id: 12
+  id: 2
 
 - name: Paleo map
   subname: API
@@ -38,4 +38,4 @@
     - devicon-postgresql-plain-wordmark
     - devicon-heroku-original
     - devicon-javascript-plain
-  id: 11
+  id: 3

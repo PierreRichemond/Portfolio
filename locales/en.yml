@@ -1,16 +1,17 @@
 en:
     about_h2: "About me"
     about_intro_html: "👋 Hi, I am Pierre Richemond."
-    about_p_html: "I am a Full Stack developer. After learning coding in Le wagon bootcamp, I've had the opportunity to work as a full stack developer in a startup using Ruby on rails, Rspec and Stimulus."
+    about_p_html: "As a full-stack developer seeking fresh career prospects, I'm eager to put my heart and soul into a growing project, be it as a freelancer or a full-time employee 🚀🚀🚀. From website creation to conception and production, I'm ready to accompany you every step of the way. If you have a project in mind, please do reach out and tell me all about it 😉. I'll make sure to get back to you promptly!"
     tools_h2: "Check what I use to code!"
     tools: "Tools"
     skills: "Skills"
     tools_skills: "Skills & Tools"
     studies: "Studies"
-    post_lewagon_projects_title: "Projects after Le Wagon"
+    post_lewagon_projects_title: "Personal projects"
     lewagon_projects_title: "Projects at Le Wagon"
     projects_p: "This is a list of personal projects."
     projects_lewagon_p: "Here are the projects I worked on during the training at Le Wagon"
     animate: 'animate-en'
     is_my_thing: 'is my thing.'
     book: 'Reading'
+    volunteering: Volunteering

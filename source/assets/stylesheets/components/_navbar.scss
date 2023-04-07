@@ -12,14 +12,15 @@
 
 .top-banner{
   color: antiquewhite;
-  background-color: rgb(91, 149, 156);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(66, 133, 144, 1) 43%, rgba(0, 212, 255, 1) 100%);background-color: rgb(91, 149, 156);
   background-size: cover;
   border-radius: 5px;
   width: 100%;
 }
 
 #name-gradient-left-to-right {
-    background-image: linear-gradient(to right, #5e5547,#e97b5d, #f1be7a, antiquewhite);
+    background-image: linear-gradient(to right, #5e5547,#e97b5d, #f1be7a, #faebd7);
     -webkit-background-clip: text;
         background-clip: text;
     color: transparent;
