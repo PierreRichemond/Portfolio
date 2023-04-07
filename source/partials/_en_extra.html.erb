@@ -1,0 +1,13 @@
+<% data.en_extra.each do |product| %>
+  <div class="card-category">
+    <div class="row">
+      <% if product.id.even? %>
+        <%= partial '../partials/project_description', :locals => { :product => product } %>
+        <%= partial '../partials/project_image', :locals => { :product => product } %>
+      <% else %>
+        <%= partial '../partials/project_image', :locals => { :product => product } %>
+        <%= partial '../partials/project_description', :locals => { :product => product } %>
+      <% end %>
+    </div>
+  </div>
+<% end %>
