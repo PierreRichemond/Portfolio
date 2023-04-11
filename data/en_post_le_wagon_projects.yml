@@ -19,6 +19,7 @@
   subname: RPG
   description: A platform where you can create your very own fighter, try creating a few and have them fight. Your fighter will receive a random item at each level, gear up to get better stat before your next fight!
   image: game.png
+  url: https://rpg-on-browser.onrender.com/
   github: https://github.com/PierreRichemond/RPG_on_browser
   tags:
     - devicon-rails-plain-wordmark
@@ -32,6 +33,7 @@
   subname: API
   description: A platform to search dinosaur's location using an API-database. Change the tag to where each dinosaur used to live.
   image: paleo-map.png
+  url: https://paleo-map.herokuapp.com/
   github: https://github.com/PierreRichemond/paleo-map
   tags:
     - devicon-rails-plain-wordmark
