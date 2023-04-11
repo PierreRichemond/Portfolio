@@ -1,6 +1,6 @@
 - name: Consultant web
   description: Sur le principe du volontariat, conseils et optimisation du site inne-developpement spécialisé en sophrologie, réalisé via Wordpress. Réalisation de 3 scéances d'optimisation du site avec son créateur. Reprise de chaque pages dans un objectif d'optimistation et clarification du service proposé mais aussi d'amélioration de l'expérience utilisateur en simplifiant et épurant le visuel et les fonctionnalités.
-  image: id-Inne-Developpement-blue.png
+  image: ID-Inne-Developpement-blue.png
   url: https://inne-developpement.fr/
   tags:
     - devicon-wordpress-plain
