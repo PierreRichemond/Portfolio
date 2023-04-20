@@ -11,8 +11,8 @@
 
 
 body{
-  background-image: image-url("dynamic-style.png");
-
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 255, 1) 62%, rgba(0, 212, 255, 1) 100%);
   font-family: 'Inder', sans-serif;
 
   &::-webkit-scrollbar {
@@ -28,13 +28,16 @@ body{
 
 h1{
   text-shadow: 0px 0px 5px rgb(117, 117, 117);
+  color: white;
 }
 
 h1, h2, h3{
   font-family: 'Playfair Display', serif;
+  color: white;
 }
 h4, h5, h6 {
   font-family: 'Fira Sans', sans-serif;
+  color: white;
 }
 .center{
   text-align: center;

@@ -1,7 +1,7 @@
 <% data.fr_post_le_wagon_projects.each do |product| %>
   <div class="card-category">
     <div class="row">
-      <% if product.id.even? %>
+      <% if product.id.odd? %>
         <%= partial '../partials/project_description', :locals => { :product => product } %>
         <%= partial '../partials/project_image', :locals => { :product => product } %>
       <% else %>

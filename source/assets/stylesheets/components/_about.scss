@@ -2,13 +2,13 @@
   text-align: center;
   padding-bottom: 10px;
   margin-top: 20px;
-  color: black;
+  color: white;
 }
 
 .about-p{
   font-size: 20px;
   line-height: 1.4;
-  color: black;
+  color: white;
   text-align: justify;
   padding-left: 2em;
   padding-right: 2em;
@@ -16,14 +16,15 @@
 
 .about-intro{
   text-align: center;
-    font-size: 20px;
+  font-size: 20px;
   line-height: 1.4;
   margin-bottom: 0;
+  color: white;
 }
 
 .color-gradient{
-  background: rgb(255, 230, 156);
-  background: linear-gradient(90deg, rgba(255, 230, 156, 1) 0%, rgba(255, 243, 203, 0.3421962535014006) 56%, rgba(255, 242, 163, 1) 100%);
+  background: rgb(255, 201, 42);
+  background: linear-gradient(90deg, rgb(255, 225, 0) 0%, rgba(53, 53, 53, 0.6) 50%, rgb(44, 100, 255) 100%);
   text-align: justify;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 5px;
